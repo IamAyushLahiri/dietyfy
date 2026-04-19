@@ -20,7 +20,7 @@ class GeminiViewModel : ViewModel() {
     init {
         generativeModel = GenerativeModel(
             modelName = "gemini-2.5-flash",
-            apiKey = "AIzaSyAwLPBjgtdJZSn5vuwSasTo6w9q_Z5IEGA"
+            apiKey = BuildConfig.GEMINI_API_KEY
         )
     }
 
